@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>NEXUS-AI</title>
+  <link rel="stylesheet" href="css/nexus2.css" />
+   <link rel="icon" href="favicon.ico" /> 
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body onmousedown="return false" onselectstart="return false">
+  <div class="top-container">
+
+    <img class="top-cloud" src="images/cloud.png" alt="cloud" />
+    <h3>AISOC Presents</h3>
+    <h2>Nexus<span class="pro">AI</span></h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud" />
+    <!-- <img class="face" src="images/AI.jpg" alt="mountain" /> -->
+    <img
+      src="https://media4.giphy.com/media/3S59TcvgxZK8kA45mu/giphy.gif?cid=790b761158de8223c0c4169e8c70411fca1bf1328c70bc0f&rid=giphy.gif&ct=g"
+      height="20%" width="20%" alt="" />
+  </div>
+
+
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/nutri.jpeg" height="20%" width="20%" alt="" />
+      <h2>Food Nutritient Identification App</h2>
+      <p class="intro">
+        <span style="text-decoration: underline; float: left; margin-left: 2%;">Objective:</span><br>
+        We are usually not conscious about the amount of
+        nutritients present in our daily meals. A Nutrient-Aware Application
+        is a software tool designed to help individuals track and manage their
+        daily nutrient intake. The primary goal of such an application is to
+        promote a healthy and balanced diet by providing users with accurate
+        and relevant information about the nutrients present in the food they
+        consume. <br />
+      </p>
+
+      <p>
+        The application can use an ML/DL model trained on a image database of
+        foods, which includes the nutritional information for each food item
+        such as calorie count, macronutrient breakdown (carbohydrates,
+        proteins, and fats), vitamins, and minerals. Users can input the image
+        of the food they are about to consume, and the application will
+        calculate the total nutrient intake for that meal
+
+      </p>
+      <ol style="margin-top: 5%;">
+        <b><u>Use Case Scenarios:</u></b>
+
+        <li style="margin-top: 2%;">Click a picture of your plate and upload in the App.</li>
+        <li>
+          The App should first detect the types of dishes present in that
+          plate. (Object Detection or Semantic Segmentation)
+        </li>
+        <li>
+          Quantity of each Dish in the plate (Image based quantity (ml/gms)
+          prediction)
+        </li>
+        <li>
+          Create an Excel Sheet where the individual Nutrient component for
+          each dish is given. How much of each nutrient is available in this
+          particular dish is also reported.
+        </li>
+        <li style="margin-bottom: 2%;">Create a Chart/Graph for visualization</li>
+      </ol>
+
+      <p style="margin-top: 5%;">
+        <span style="text-decoration: underline; float: left; margin-left: 2%;">Optional:</span><br>
+        The application may also include features such as
+        personalized nutrition plans, reminders to drink water, and goals for
+        daily nutrient intake based on factors such as age, weight, height,
+        and activity level. Some applications may also offer recipe
+        suggestions and allow users to track their progress over time.
+        Benefits? In addition to individual use, the application can be useful
+        for healthcare professionals, nutritionists, and dietitians to monitor
+        the nutrient intake of their patients and clients. In conclusion, a
+        Nutrient-Aware Application is a valuable tool for promoting a healthy
+        diet and lifestyle. With its accurate and comprehensive information,
+        it helps individuals make informed decisions about their nutritional
+        intake and achieve their health and wellness goals.
+      </p>
+      <div class="contact-me">
+
+
+        <a class="btn"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdNI6c6djlRpvVcGq44i7OvV3uE30qykcCMS5Ng8jPXNiXXug/viewform">
+          Register
+        </a>
+      </div>
+    </div>
+    <hr />
+
+    <div class="patient">
+
+      <div>
+        <h3>Patient Diagnostic Record Conversion into Excel and Trend Generation</h3>
+        <img src="images/patient.jpeg" alt="" height="30%" width="30%">
+
+      </div>
+      <p>Just storing heaps of lab reports of a patient for years together in form of pdf or image, will not be able to
+        help the
+        patient or the medical practitioners in any way.
+        In order to actually predict a medical codition and to avoid it in advance, it is imperative to properly fetch
+        out
+        the important information from these lab reports and store them in an excel or csv format for detailed analysis.
+        Graphical trends can be generated using these excel files and these trends can help us to identify an upcoming
+        serious health
+        condition for a patient.
+
+        This tool which can be used in clinics,
+        hospitals, third party associates of Ayushman bharat
+        digital mission to convert printed or pdf or image form of
+        lab reports of a patient from different sources into single
+        excel file along with analytics to see the trend.
+
+        New values can be appended to the database so that life
+        time digital track record is maintained.
+      </p>
+      <div class="contact-me">
+
+
+        <a class="btn"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdNI6c6djlRpvVcGq44i7OvV3uE30qykcCMS5Ng8jPXNiXXug/viewform">Register</a>
+      </div>
+    </div>
+    <hr />
+    <div class="medicine">
+      <h2>Medicine taking reminder from Doctor prescription</h2>
+      <img src="images/medicine2.jpg" alt="" height="40%" width="40%">
+
+      <p>
+        <span style="text-decoration: underline; float: left; margin-left: 2%;">Objective:</span><br>
+        Managing medications, including remembering when and how to take them, can be challenging, especially for those
+        juggling many responsibilities and activities.
+        However, forgetting to take your medications as directed can have negative, and even life-threatening,
+        consequences. The application can use an ML/DL model trained on a image database of prespcription, which
+        includes the patients information along with a brief medical history. Users can input the image of the
+        prescription that is gven by the doctor, the application will read the given input and mark the reminders for
+        medicines on the app along with the duration/course of medicine.
+        <!-- <span style="text-decoration: underline; float: left; margin-left: 2%;margin-top: 5%;">Use Case Scenarios:</span><br>
+
+            1. Click a picture of your prescription and upload in the App. <br>
+            2. The App should first detect the patient's name and medicines suggested/given on the prescription. <br>
+            3. The app will now take the reminder of those medicine and will add it on the calender. <br>
+            4.  The model will now start functioning providing the reminder to take medication on time. <br>
+            <br> -->
+      <ol style="margin-top: 5%;">
+        <b><u>Use Case Scenarios:</u></b>
+
+        <li style="margin-top: 2%;">Click a picture of your plate and upload in the App.</li>
+        <li>
+          The App should first detect the patient's name and medicines suggested/given on the prescription.
+        </li>
+        <li>
+          The app will now take the reminder of those medicine and will add it on the calender.
+        </li>
+        <li style="margin-bottom: 2%;">The model will now start functioning providing the reminder to take medication on
+          time.</li>
+      </ol>
+      Optional: The application may also include features such as time-flexibility to take medicine, reminders to drink
+      water, and other various functions of your imagination.
+
+      Benefits? In conclusion, a Medicine-Reminder Application is a valuable tool for promoting a healthy lifestyle.
+      With its accurate and comprehensive information, it helps individuals make informed decisions about their
+      medication intake and achieve their health and wellness goals. </p>
+      <div class="contact-me">
+
+
+        <a class="btn"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdNI6c6djlRpvVcGq44i7OvV3uE30qykcCMS5Ng8jPXNiXXug/viewform">Register</a>
+      </div>
+    </div>
+    <hr>
+
+    <div class="NFT">
+      <img
+      src="https://media2.giphy.com/media/EruZaPOld5NDhql2nX/giphy.gif?cid=790b76117243cc9eda8a86da1194f25230637e527c5a2d03&rid=giphy.gif&ct=g"
+      height="20%" width="20%" alt="" />
+  </div>
+      
+      <!-- <img src="images/NFT.png" alt=""> -->
+      <h2>NFT based student attendance system</h2>
+      <p>
+        <span style="text-decoration: underline; float: left; margin-left: 2%;">Objective:</span><br>
+
+        The objective is to create NFT or smart contract-based gamification system is to improve the process of taking
+        student attendance by making it more efficient and fair, while addressing the issue of proxy attendance.
+
+        The game needs to be designed in a way that no student is motivated to apply proxy for any other student. It
+        should be an open network where students can mention if someone is absent. The rules should be such that if
+        someone is not present in the class and yet he is marking himself present online, others should help the system
+        to catch him. Those who help the system to give fair attendance will get rewarded and those who try to cheat the
+        system will get penalized.
+
+        <!-- <span style="text-decoration: underline; float: left; margin-left: 2%;">Use Case Scenarios:</span><br>
+        1. Record attendance in traditional classrooms and online/virtual classes.
+        2. Provide teachers and administrators with an accurate, real-time record of student attendance.
+        3. Incentivize consistent attendance through a reward system for students with high attendance.
+        4. Track attendance as a factor in determining academic performance.
+        5. Those who have cheated ,points will be deducted. -->
+
+      <ol style="margin-top: 5%;">
+        <b><u>Use Case Scenarios:</u></b>
+
+        <li style="margin-top: 2%;">Record attendance in traditional classrooms and online/virtual classes.</li>
+        <li>
+          Click a picture of your prescription and upload in the App.
+        </li>
+        <li>
+          Provide teachers and administrators with an accurate, real-time record of student attendance.
+        </li>
+        <li>
+          Incentivize consistent attendance through a reward system for students with high attendance.
+        </li>
+        <li>
+          Track attendance as a factor in determining academic performance.
+        </li>
+        <li style="margin-bottom: 2%;">Those who have cheated ,points will be deducted.</li>
+      </ol>
+
+      <span
+        style="text-decoration: underline; float: left; margin-left: 2%; color: rgb(148, 196, 237); margin-top: 5%;">Optional:</span><br>
+      <p style="margin-top: 7%;">
+        Receive alerts when students have missed a certain number of classes, allowing teachers and administrators to
+        intervene and support students.
+        Benefit? The benefits includes increased accuracy, reduced time and effort, improved attendance, enhanced
+        transparency, student engagement, data-driven decision making, and increased accountability. This system
+        eliminates human error, saves time and effort for teachers, encourages students to attend classes, provides a
+        transparent and accountable system, and uses data to drive decisions.
+      </p>
+    </p>
+      <div class="contact-me">
+
+
+        <a class="btn"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdNI6c6djlRpvVcGq44i7OvV3uE30qykcCMS5Ng8jPXNiXXug/viewform">Register</a>
+      </div>
+    </div>
+    <hr>
+    <div class="news">
+      <img
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8PEBUQDw8PDw8VDxAPDw8PDxAPDxUPFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGzIlHyEtKy0vLS4tLS4tMi0rLS0tLy0yLS0tLTctLS0tLS0tLS4tLTctLS0tLSstLS0yLi01Lf/AABEIAMIBAwMBIgACEQEDEQH/xAAcAAADAAIDAQAAAAAAAAAAAAAAAQIDBgQFBwj/xAA+EAACAQIDBQYCBgkEAwAAAAAAAQIDEQQhMQUSQVFhBhMicYGRBzIjQmKxwfAUJDNScqGy0eEVU4KiQ0Rj/8QAGgEBAAIDAQAAAAAAAAAAAAAAAAEFAgMEBv/EACwRAQACAQIEAwkBAQEAAAAAAAABAgMEEQUSITETQdEiMlFhcYGRofDhsRT/2gAMAwEAAhEDEQA/APFxiGADEMBgIYDGIaAYxIAKGTcLgVcpMm1tcvvfkhd5yy+/34egGdQfJ+wWMCmzl4ean4ZZPg0BjRQ6lNxbi9Vy080IBlISGAxoRSACkJDQDQxIpAMYikAIYIaAAAYAAABroAADGIYAMQwGAhgMAX5fATmlpn1entxAtLjouYnUtp7v8FwMTlfXMaAq4COXgNn1a7tTg3zk8oLzZlSlrzy1jeUxEzO0OMdnsvZFavnFbkP9yWS9FqzYdmdm6VK0qn0s9bP5E+i4+p3+HmoyTcVKOji0n4enJ+Vi703BrTHNm/Eerrx6We9vw0bGYaSbhJfSQ5fWjqmvv90cJG47cwPeLfp37yF3HhKUL/K7ceK6mqVoL54/K9eFmV+u0k6fJy+U9vp/jRmxcltvJiGhIZxNShiGgGMENACKQkNAUNCGgGNCGgGAAADAANcAAAYxDABiABobaXX7vchysury9OJAFSm3+cvYBDhFt2SbbySSu2+iAZlw2HnUlu04ynLlFX9+R3uy+y1SdpV33cddxZza6vSP8za8Hg6dGO7TgoR6at823my20vCMuX2snsx+/wAeX3/Dpx6a1utukNf2X2VStLES3nr3cfl/5Pj6GyUqcYJRjFRitIxSS9iwPR6fS4sEbUj7+bvpjrTtAABHQzM17a2F7mfeRinSm7VI6JSevpL7/M2AmtSjOLhJXi0010ZyazSxqMc1nv5T82vLj567NHxVDclZZxfihJ8Y3y9eZiOwxmGnBuhJ3cXv03l4ovJf280deeMyUmlpraNphUzExO0miiUUYICKQkMBoolDAaKEMARQkAFAAAAwADXAAAGAAAxMYmBGt/f+4rg8szs9gYmnRrxlUhFwlZXkr7jekl+dGZ4qRe8Vmdt/NNY3nZyNl9nK1a0pruqfOS8bX2Y/3sbfs3ZNHDr6OPi4zlnN+vD0OcB7DS8Pw6frEbz8Z/ui0x4K0+oAAO5uAAAAAAAAAAcHa+B76Hh/aR8VN9eMX0f9jVcRC63krPSa0alpmvz/ADN4udDtvC7ku+S8EvDWjnbkpWXs/Qo+L6Pnr41e8d/p8ft/z6OTU4t454a8hl1ae67cHmn0IPNK80UiUMBlIkYFIYkNAMYrgBSGSMBgIYGugIYDAQwGIYARJBv5KL8k+nL88ymY5IDd+yW1e9h3NR/SQWTesqfD1WnsbCeYYWvKlKNam7Sg8/xT6NfjyPR8Bi4V6cakNJLTinxT6o9VwnWeLj8O3vV/cf4stNl5o5Z7w5AABbukCm7K4xqLeSTbeSSV22+BEjjwqu+ehysPBTaW9CCd/HNtQVld3sm/ZXzRzsD2cnKm61aSpUlHet4t7dys21FqMWms82rp2tcW09pUnBUcLTUaUKm+qjun3kbRVSGd05Rir3vfLJWucsajmnlp1+flDVF952gbU2aqFl3ilUjJ060LWcamqcL5yg19bmne2R11zHiMTOcnOc51JvOU5tyk35slVTdjmYrtad5Z1np1ZGyJ2as80000+QNk3JlMy1vF4Tu5d0/ld5UZPlxi/LTyszrmrOzyej8za8dhVVhu6SXig+Uloa7iKbd21acXu1I8U1x/PC3U8nxHR+Bfevuz29P7yVmfFyT07OMhklIrmgxkjAoaJQwKGTcYFXAkaAq4EgBr4xDABiGADEMAJaKBgRTnuvPR5NHd9ltq9xU3JP6Go0v4amST8uD9DpJIuHiW69VnHy4r8fc24M1sOSL17wypaazvD1MDouyu1e+p93N/S00k76yhon1fB/5O8ue2wZq5scXr2lb0vFq7wZ2Gz9syw1KpCMIzc5U5Lfct2LjvJu0Wm34lZ3VnFPU61sibyMsla3ry2TaImNpZsVtCrVcnOpOTkkpRi9ynZaLdjZWTzslq7nElK5IGERERtDAFSS1RI0ZJNMuFNvyLpUuL9i6k7BlEfFLajkteZ1O1MFJvvqcXKSi3VjFOTdKKu5W6K9+h2+Fw06s406cXOpKSjGKV22/w5vgj2bsn2YpYGlZqM680u+qW/wCkfsr+ZWcUzY64uS3WZ7ev937OfU3rFdpfMWIp7runeLzi/wA/nQxm9fEnsj/p2JtCLWCrylPDNXapVdZUumrcVxV1wNFlFp2eqPLyrQNCGQGhom4wKTGJMAKQXEADAQAdCAAAwAAGMQAMAABMjR3WqzXmZCWgM2Bxk6M1Vh80XmtFKPFPp/g9FwmLhVhGpB3jJXXPqn1R5jo7nfdl9pd1PupP6Ob8Df1Z/wCdPYtuF6zwr+Hb3bfqXTp8vLPLPaW6ORNxBc9OsNxZEtDuJshBGSC4ijHmVJ8vUJiGV1MupjSbds220klm23ol1DC0Z1JqFOMpzk7RhFXk30R6t2K7FLCtYjE2niLeCGsaV9c/rT68OHN8uq1dNPXe3fyj4sMmaKRvLP2E7KrBQ76sk8VONno+7g/qJ83ld9Fyz20Cak1FXk0kldt5Kx5LNltlvN795VdrTad5dZ2n2FR2jhamFrLwzXhmkt6FRZxnG/FP8VxPmjbuy62Hq1KFeO7iKL3alk1GUNYzjzi1mvVcD6hwOPhWlNQTtBpbzWUk1qvVPLyejV9K+LPZJ4ygsZh4XxeHi24r5quHV3KmvtL5o+q4mv5MXz7cEZcTBZTj8ss10fL8/gYSBVxk3GA7juTcdwKuMhMq4DuArAB0YAADAAAYAADAAAAYABEkKPL28y2RJAbz2Yx08VDu1GU68ElKMYuUpLRSsvbz8zacP2Z2hUV44PEW+3TdP+ux5v2Q7RVdm4uni6WsHu1of7lBtb8H5pejSZ9a7H2nSxlCniaEt+lVgqkJdHwa4NaNc0W9OMZa0iu0TMecumNTaI2eOQ7E7Tl/6sl1lUpJf1Gan2D2lf8AYJedWnb7z2kCJ4zn+Efv1P8A1XePQ+Hm0pvNUIdZ1nb/AKxZ3ezvhgsniMS3zjQil6b0r/ceiTqRiryaiubaSOLhsd3kmo05d2v/ACtx3XkmrK97Zv2Nd+K6m0dJ2+kerGdTklh2PsLC4ONsPSjBvKU/mqS85PNnZHExu0KdGyk7ybtGCzk3y6epw8VTq1E5Vanc0fC7JOMrN5xlnrmly42zy4LTa072lpmZnrLlVdox8UKVqtVRk1BPJyV/DvaJ5P2OtxUN1d5jZRqZ2p0I23btNPW19Xr/ADyJw8pScoYOMYRvadaacm3a17crZ9W9FmdtRwEE4SlGM6sYKHeOOeStdLgyOyFbPq79NNU3SXCLtpqmreZyQAxHhPxX7I/oVd4mlH9SxE26iSypYqTbfRRlquTuuKR5nUg4uz/PU+ttr7Mo4uhPD1479KpBwkuPRp8GnZp8Gj5o7UbArYLETwla8qlNp0qlrKrRl8sl58Vwkmie418CbjIFXAkaApMaZKY0wKAm4AdMAhgMBDABiACgEMAGIAAmSLEwMWj+89b+BXbT9Gr/AOm15/q9aTlhpSdlCu9YeU/6l9o8mkgpyaeTakneMk7NSWlnwA+0NpY+lhqUq1aW5Tja7s27t2SSWbbbOLgdtU8VRdXCfS2moSjK9OSd1e6aysnc1DsDt+j2h2a6OKf6zS3YYhQajPeXyVo8r25WupI3HYOxKOCpunS35b0nOc6jUpyk0ldtJLRLRG6IxeF1359/tsz9nl+bHWoRS73FyjO19ymo7yjfwtRSV5t3WXO1hRr1q6i6NqVK0lLfSvlazi4tpr5lbJ5LPO5x62Fw9CopVp1as3Jygp3mkrvN82lurNv5Y2MuNp1G5fpFSNPDxcN1U8pSbtlxur5Wtnc1sGOjOjTnu0YfpNeylOd9dE5b2l7Phwy5I5VDAfSXq13VluzUacrJd3LJ3jo+GaWv8sFLvHeGGgoU3FWryzk/nUk757yduDOXh8DTpS3vFVq3b3pO7W9qk+C1/LEjnQiopJJKKVklkkhxknmtCO7v82fT6pkMQAcDbW2sNgqTrYqtToU1xnKzb5RWsn0R4l21+MuIxF6OzVLC0c08RNL9Jl/As1TXvL+ED1Xtf27wGy42r1N+u1eGGpWlWfK60gusrHgPbLtxiNq14VatOlShTUlRpQSk4xlbe3qjV5aLkuhq1SpKcnKcpTnJ70pzk5Sk+bbzbEmB2WKipLvI6N2kuT5+uft1ONc5Oylv71N6OnU9HGDkn7xRxUTIq47kIdyBYIm40wGAgA6gYgAYxAAxiABgAAMAAAAAATIkjIyWgO+7D9qKmy8ZTxULuF9zE0k7KdF6rz4rqj6z2fjaeIpQr0ZKdKpCNSnNaOEldPofFadn04+R7L8Bu2fdVP8AS8RP6Obc8HKT0qP5qXRPNrrdcQPcsTScovdajOz3JuKluyatdJnW0tnuXixVTvJN3VON1BapZXzdmtOXHNvtzFWus4pN5Xyu7ExIUYu2a3IpZRjyXlp6FUpLNJWtkSqPi3230XJ8Vflpl0NR7afEnZ+yk6bl+kYpaYag02n/APSWlP1z6AblVqRhFylJRik3KUmlFJatt6I8p7a/GbD0L0tmqOKrZp4iV1hoPnHjVflZdTyntl28x+1pNV6nd4e944WldUlbRy4zfV+iRr6VsiBydtbaxOOquti6069R6Ob8MVyhHSC6I4JVRcSUBQ0OnTvnklzen+Su+Ufkzf7719OQHYYeoqEJX/azg6cYv6sJZSk+rWSXVnDuYo83qZLgUMm4XAodyQuBdwJuAHVgAAMAABgIYAMQAMAABgAAAMAAiSKw9SUZJwk41IyU6c4u0lNO6s+Duk11QMxyQH1d8Mu2EdrYKNSTSxNO1LFQWVqlsppfuyWfuuB2/aPtLg9m0u9xleNKP1Y61JvlCCzkz5V7L9qcXsyrKvg5xhOdOVKopRU4Z5qW7pdPNdb8GcDae0q+Lqutia069WWs6kru3Jcl0WQHonbb4xYzG71HBKWCwzyc0/1qa43knaC6Rz6nmbd3dttt3bebb4tsQAUZo1b6689bmFIyKKXzZdPrP+wFPPJew24x+0+S+X15kurlaKsvx/ElRAblKWr8uHoVGIJFICkUQMCrjRIJgVcdyQuBVwEAHXAIYAMQAMAABgIYAMQAMYgAYAACJaLEwMcXbXR6lNW/BikhRk1lquTApIy06V88kubyX+THGpyivXMpyk9X1At1Evl1/eevpyIS5jSKQAkUhDQDGIAKTHckAKTHckLgWBNwuBVwEAHAQAADAAABgAAAAAwAAGAAADAAAAACWIAAaGhgBQ0AAMEAAMAABoBgAIEMABghgAgAAP/Z"
+        alt="">
+      <h2>Liquid News</h2>
+
+      <p>
+        <span style="text-decoration: underline; float: left; margin-left: 2%;">Objective:</span><br>
+
+        Liquid News is a project aimed at helping people better understand and interact with the news by summarizing
+        news articles from various outlets and providing machine-learning-based analysis and semantic navigational aids.
+
+        <ol style="margin-top: 5%;">
+          <b><u>Use Case Scenarios:</u></b> 
+          
+           <li style="margin-top: 2%;">Users can access news articles from multiple sources through the app.</li>
+           <li>
+            The app summarizes the articles and uses a semantic-relational model to uncover the relationships between topics covered across multiple sources.
+           </li>
+           <li>
+            Users can parse news via the semantic-relational model and navigate between topics through the semantic
+        navigational aids.
+           </li>
+           <li style="margin-bottom: 2%;">Basically, the app will work with data-set of many news articles of that day and create a summarised page
+            with each events of that day and a short description of it.</li>
+         </ol>
+
+        <!-- Use Case Scenarios:
+        1. Users can access news articles from multiple sources through the app.
+        2. The app summarizes the articles and uses a semantic-relational model to uncover the relationships between
+        topics covered across multiple sources.
+        3. Users can parse news via the semantic-relational model and navigate between topics through the semantic
+        navigational aids.
+        4. Basically, the app will work with data-set of many news articles of that day and create a summarised page
+        with each events of that day and a short description of it. -->
+
+        <span style="text-decoration: underline; float: left; margin-left: 2%; margin-top: 5%;color: rgb(148, 196, 237);">Benefit:</span><br>
+          <p style="margin-top: 7%;">
+            The aim of Liquid News is to promote a greater understanding of the news and media around us by
+            providing a more comprehensive and connected view of the news. The machine-learning-based analysis and semantic
+            navigational aids aim to enhance the user's engagement and understanding of the media and provide a more
+            unbiased assessment of the news.
+          </p>
+          
+        <span style="text-decoration: underline; float: left; margin-left: 2%; margin-top: 5%;color: rgb(148, 196, 237);"> In conclusion:</span><br>
+          <p style="margin-top: 7%;">
+
+            Liquid News is a valuable tool for promoting a deeper understanding and interaction with the
+            news. By leveraging machine learning and semantic relationships between topics, it aims to provide a more
+            comprehensive view of the news and media, enabling users to better understand the world around them.
+          </p>
+      </p>
+      <div class="contact-me">
+
+
+        <a class="btn"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdNI6c6djlRpvVcGq44i7OvV3uE30qykcCMS5Ng8jPXNiXXug/viewform">Register</a>
+      </div>
+    </div>
+    <hr>
+    <div class="">
+      <h2>Evaluation of subjective answers using Machine Learning </h2>
+      <p> <span style="color:white;">
+          Note: ChatGPT API CAN BE USED.</span><br>
+           
+          <span style="text-decoration: underline; float: left; margin-left: 2%; margin-top: 5%;">Objective:</span><br>
+          <p style="margin-top: 7%;">
+
+            Automatic evaluation of subjective answers refers to the
+            use of algorithms and machine learning techniques to grade or score answer to the question paper from a Subject.
+            You can choose the Subject (science, hindi, english, history, geography, social science,) and create the
+            Application accordingly. This task can be challenging for machines as subjective answers do not have a single
+            correct answer and often involve emotions, personal biases, and cultural differences.
+            
+            The application can use an ML/DL model trained on a image database of Answer-Sheet, which includes the
+            information of Students as well. Several preprocessing steps must be performed, such as cleaning the data and
+            tokenization before working on it. Then the textual data can be compared using various techniques such as
+            document similarity, latent semantic structures, concept graphs, ontologies. The final score can be evaluated
+            based on Similarity, keywords presence, structure, language which involves emotions, personal views and
+            differences.
+          </p>
+            <!-- Use Case Scenarios:
+        1. Click a picture of your Answer-Sheet and upload in the App/Model.
+        2. The App/Model should first detect the Candidate name.
+        3. Second the App/Model will start performing its operations and would produces a required result. -->
+
+        <ol style="margin-top: 5%;">
+          <b><u>Use Case Scenarios:</u></b> 
+          
+           <li style="margin-top: 2%;">Click a picture of your Answer-Sheet and upload in the App/Model.</li>
+           <li>
+            The App/Model should first detect the Candidate name.
+           </li>
+           <li>
+            The App should first detect the patient's name and medicines suggested/given on the prescription.
+           </li>
+           <li style="margin-bottom: 2%;">Second the App/Model will start performing its operations and would produces a required result.</li>
+         </ol>
+
+         <span style="text-decoration: underline; float: left; margin-left: 2%;">Optinal:</span><br>
+
+         The application may also include additional features such as way of presentation and other various
+        features of your imagination.
+
+        Benefits? Subjective paper evaluation is a tricky and tiresome task to do by manual labor.The goal of this
+        technology is to automate the evaluation and reduce the workload for the checkers and streamline the evaluation
+        process.</p>
+      <div class="contact-me">
+
+
+        <a class="btn"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdNI6c6djlRpvVcGq44i7OvV3uE30qykcCMS5Ng8jPXNiXXug/viewform">Register</a>
+      </div>
+    </div>
+    <hr>
+    <div>
+      <h2>Reducing Idling at Traffic Lights</h2>
+      <p>
+        <span style="text-decoration: underline; float: left; margin-left: 2%; margin-top: 5%;">Objective:</span><br>
+        <p style="margin-top: 7%;">
+          To create an algorithm with a sleek UI that aims to reduce idling time and carbon emissions at
+          signalized intersections by using autonomous vehicles with AI-controlled speed in a simulated environment.
+        </p>
+          
+          <!-- Use Case Scenario:
+          1.) This will be a stimulation based project where there will be a hypothetical map with traffic lights at
+        various intersections.
+        2.) Each traffic light will be running with it's own cycle and each cycle will unique for each light.
+        3.) The objective of this algorithm will be to determine the speed of the vehicle at which the it will encounter
+        maximum amount of green lights from point A to point B which can be determined by the user -->
+
+        <ol style="margin-top: 5%;">
+          <b><u>Use Case Scenarios:</u></b> 
+          
+           <li style="margin-top: 2%;">This will be a stimulation based project where there will be a hypothetical map with traffic lights at
+            various intersections.</li>
+           <li>
+            Each traffic light will be running with it's own cycle and each cycle will unique for each light.
+           </li>
+           <li style="margin-bottom: 2%;">The objective of this algorithm will be to determine the speed of the vehicle at which the it will encounter
+            maximum amount of green lights from point A to point B which can be determined by the user</li>
+         </ol>
+
+         <ol style="margin-top: 5%;">
+          <b><u>Optional:</u></b> 
+          
+           <li style="margin-top: 2%;">Adding vehicles with different speeds and latencies so as to emulate real-life traffic</li>
+           <li>
+            Collection and analysis of real-time traffic data to continuously improve the AI algorithms. (Make this
+            algorithm self-improving if possible.)
+           </li>
+           <li style="margin-bottom: 2%;">User-friendly interface for traffic management officials to monitor and control the system.</li>
+         </ol>
+
+         <ol style="margin-top: 5%;">
+          <b><u>Benefits:</u></b> 
+          
+           <li style="margin-top: 2%;">Improved air quality by reducing vehicle emissions from idling engines.</li>
+           <li>
+            Reduced fuel consumption and associated cost savings for drivers.
+           </li>
+           <li>
+            Improved traffic flow and reduced congestion.
+           </li>
+           <li>
+            Increased road safety by reducing the likelihood of vehicles accelerating suddenly when the light turns
+            green.
+           </li>
+           <li style="margin-bottom: 2%;">Better use of public infrastructure and resources with a projected reduction of at least 25% in idling time
+            and carbon emissions.</li>
+         </ol>
+         </p>
+      <div class="contact-me">
+
+
+        <a class="btn"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdNI6c6djlRpvVcGq44i7OvV3uE30qykcCMS5Ng8jPXNiXXug/viewform">Register</a>
+      </div>
+    </div>
+    <hr>
+    <div>
+      <h2>Automatic Resume Analysis</h2>
+      <p>
+        
+        <span style="text-decoration: underline; float: left; margin-left: 2%; margin-top: 5%;">Objective:</span><br>
+        <p style="margin-top: 7%;">
+
+          Automatic resume analysis refers to the process of using computer algorithms and natural language
+          processing techniques to analyze and evaluate resumes submitted by job applicants. It uses technology, such as
+          artificial intelligence algorithms, to scan and evaluate resumes to identify relevant information and assess the
+          candidate's qualifications for a job and provide an objective evaluation of the candidate.
+          
+          The application can use an ML/DL model trained on a image database of resumes or CVs, which includes the
+          information of Candidates. This model will use keywords, experience, qualifications, education, and other
+          relevant factors, and will produce a score or ranking based on these criteria. Users will give input the image
+          of the resume or CV.
+        </p>
+
+        <ol style="margin-top: 5%;">
+          <b><u>Use Case Scenarios:</u></b> 
+          
+           <li style="margin-top: 2%;">Click a picture of your Resume or CV and upload in the App/Model.</li>
+           <li>
+            The App/Model should first detect the Candidate name.
+           </li>
+           <li>
+            Second the App/Model will look for the keywords to produce the required results.
+           </li>
+           <li style="margin-bottom: 2%;">Create an Excel Sheet where Candidates results will be displayed accroding to rank.</li>
+         </ol>
+        <!-- Use Case Scenarios:
+        1. Click a picture of your Resume or CV and upload in the App/Model.
+        2. The App/Model should first detect the Candidate name.
+        3. Second the App/Model will look for the keywords to produce the required results.
+        4. Create an Excel Sheet where Candidates results will be displayed accroding to rank. -->
+
+        <span
+        style="text-decoration: underline; float: left; margin-left: 2%; color: rgb(148, 196, 237); margin-top: 5%;">Optional:</span><br>
+        <p style="margin-top: 7%;">
+
+          The application may also include additional features such as skills, certificates, achievements and
+          other various features of your imagination.
+          
+          Benefits? The goal of this technology is to automate the initial screening process and reduce the workload of
+          recruiters and HR personnel and to quickly identify qualified candidates and streamline the recruitment process.
+        </p>
+      </p>
+      <div class="contact-me">
+
+
+        <a class="btn"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdNI6c6djlRpvVcGq44i7OvV3uE30qykcCMS5Ng8jPXNiXXug/viewform">Register</a>
+      </div>
+    </div>
+    <hr>
+    <div>
+      <h2>Tumor Detection in Brain Scans</h2>
+      <img
+        src="https://i.giphy.com/media/encB7tn3Jt2qPG57xP/200w.webp" alt="" height="40%" width="40%">
+      <p>
+        <span style="text-decoration: underline; float: left; margin-left: 2%; margin-top: 5%;">Objective:</span><br>
+        <p style="margin-top: 7%;">
+
+          The objective of the "Tumor Detection" project is to accurately detect the presence of brain tumors
+          in images provided as input.
+          
+        </p>
+
+        <ol style="margin-top: 5%;">
+          <b><u>Use Case Scenarios:</u></b> 
+          
+           <li style="margin-top: 2%;">Teams will be provided with a dataset of brain tumor images.</li>
+           <li>
+            Using the provided images as input, the teams will write code to determine whether the image contains a brain
+            tumor or not.
+           </li>
+           <li style="margin-bottom: 2%;">The original answers for the images will be available for comparison and the teams' accuracy will be evaluated.</li>
+         </ol>
+        <!-- Use Case Scenarios:
+        1. Teams will be provided with a dataset of brain tumor images.
+        2. Using the provided images as input, the teams will write code to determine whether the image contains a brain
+        tumor or not.
+        3. The original answers for the images will be available for comparison and the teams' accuracy will be
+        evaluated. -->
+        <span style="text-decoration: underline; float: left; margin-left: 2%; margin-top: 5%;color: rgb(148, 196, 237);">Benefit:</span><br>
+          <p style="margin-top:7%;">
+
+            The ability to accurately detect brain tumors through image analysis has the potential to greatly
+            improve patient diagnosis and treatment.
+            
+          </p>
+        <span style="text-decoration: underline; float: left; margin-left: 2%; margin-top: 5%;color: rgb(148, 196, 237);"> In conclusion:</span><br>
+
+           <p style="margin-top: 7%;">
+             The "Tumor Detection" project is a valuable tool in the fight against brain tumors, using image
+             analysis to provide a more accurate and efficient method of detection. The goal is to improve patient diagnosis
+             and treatment, leading to better outcomes and improved quality of life.
+            </p>
+      </p>
+      <div class="contact-me">
+
+
+        <a class="btn"
+          href="https://docs.google.com/forms/d/e/1FAIpQLSdNI6c6djlRpvVcGq44i7OvV3uE30qykcCMS5Ng8jPXNiXXug/viewform">Register</a>
+      </div>
+    </div>
+    `
+    <hr />
+    <div class="contact-me">
+
+      <h2 class="contact-message">
+        Contact us for any queries. We are happy to help!
+      </h2>
+      <a class="btn" href="contact1.html">CONTACT ME</a>
+    </div>
+  </div>
+
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/company/a30648263/">LinkedIn</a>
+
+    <a class="footer-link" href="https://instagram.com/aisoc.society?igshid=ZDdkNTZiNTM=">Instagram</a>
+    <a class="footer-link" href="https://twitter.com/AISoC_Society?t=GL7sxjd9Fmhc5hdTrL6Alg&s=09">Twitter</a>
+
+    <p class="copyright">©2023 AISoC.</p>
+  </div>
+</body>
+
+</html>
